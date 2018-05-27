@@ -2,7 +2,7 @@
   {
     "repository":  "nitrogen-potter/kernel_motorola_potter",
     "target_path": "kernel/motorola/msm8953",
-    "branch":      "lineage-15.1-64-Extended-Rev9"
+    "branch":      "nos-mod"
   },
   {
     "repository":  "boulzordev/android_vendor_motorola_potter",
