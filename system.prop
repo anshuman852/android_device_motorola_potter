@@ -61,9 +61,11 @@ persist.bt.enableAptXHD=true
 camera.disable_zsl_mode=1
 camera.display.umax=1920x1080
 camera.display.lmax=1280x720
+camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 camera.mot.startup_probing=0
 persist.camera.debug.logfile=0
 persist.camera.gyro.disable=0
+persist.camera.HAL3.enabled=1
 vidc.enc.dcvs.extra-buff-count=2
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.disable.split.mode=1
@@ -72,13 +74,7 @@ vendor.vidc.dec.downscalar_width=1920
 vendor.vidc.dec.downscalar_height=1088
 media.camera.ts.monotonic=1
 persist.camera.time.monotonic=1
-persist.camera.max.previewfps=60
-camera.hal3.force.1=com.whatsapp/.qrcode.QrCodeActivity
-camera.hal3.force.2=com.google.android.GoogleCamera
-camera.hal3.force.3=com.google.android.GoogleCameraAr
-camera.hal3.force.4=com.google.android.Pixel2Mod
-camera.hal3.force.5=com.google.android.GoogleCameraSk
-camera.hal3.force.total=5
+
 # CNE
 persist.cne.feature=1
 persist.cne.logging.qxdm=3974
